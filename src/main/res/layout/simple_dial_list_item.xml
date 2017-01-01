@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/contact_image_simple"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_name_simple"
+        android:textSize="17sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/contact_image_simple"
+        android:layout_toEndOf="@+id/contact_image_simple"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialing"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:adjustViewBounds="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>
